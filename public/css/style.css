@@ -17,17 +17,17 @@ header {
     grid-template-columns: 2fr 1fr; /* Séparer header en 2 parties*/
     align-items: center;
     height:10vh; /* Hauteur au header */
-    padding: 0 25vh;
+    padding: 0 18vw;
 }
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 
 nav p {
-    margin: auto 10px; /* Espacement entre les liens */
-    font-weight: 600; /* Met en gras */
+    margin-left: 2vw; /*Espacement entre les liens*/
+    font-weight: 800;/* Met en gras */
 }
 
 /* Main */
@@ -43,7 +43,7 @@ nav p {
 }
 
 .profil img {
-    width: 15%;
+    width: 200px;
 }
 
 /* Section Portfolio */
