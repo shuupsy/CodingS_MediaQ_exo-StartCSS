@@ -8,3 +8,18 @@ body {
     padding: 0;
     font-family: Open Sans, sans-serif;
 }
+
+
+
+/* Footer */
+.foot {
+    background-color: #2C3E50;
+}
+
+.copyright {
+    background-color: #1A252F;
+}
+
+footer p {
+    margin: 0;
+}
