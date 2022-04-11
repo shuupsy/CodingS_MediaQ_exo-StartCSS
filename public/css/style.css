@@ -9,7 +9,10 @@ body {
     font-family: Open Sans, sans-serif;
 }
 
-
+/* Header */
+header {
+    background-color: #2C3E50;
+}
 
 /* Footer */
 .foot {
