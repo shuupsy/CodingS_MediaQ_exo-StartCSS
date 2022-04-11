@@ -12,6 +12,7 @@ body {
 /* Header */
 header {
     background-color: #2C3E50;
+    color: white;
 }
 
 
@@ -38,6 +39,10 @@ header {
     color: #2C3E50;
 }
 
+button {
+    background-color: #DC3545;
+    color: white;
+}
 /* Footer */
 .foot {
     background-color: #2C3E50;
@@ -47,6 +52,22 @@ header {
     background-color: #1A252F;
 }
 
+footer {
+    color: white;
+    text-align: center;
+}
+
 footer p {
     margin: 0;
+}
+
+span {
+    color: #1ABC9C;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    padding: 10vh 35vh 20vh 35vh;
 }
