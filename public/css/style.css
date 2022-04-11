@@ -14,9 +14,9 @@ header {
     background-color: #2C3E50;
     color: white;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr; /* Séparer header en 2 parties*/
     align-items: center;
-    height:10vh;
+    height:10vh; /* Hauteur au header */
     padding: 0 25vh;
 }
 
@@ -26,10 +26,9 @@ nav {
 }
 
 nav p {
-    margin: auto 10px;
-    font-weight: 600;
+    margin: auto 10px; /* Espacement entre les liens */
+    font-weight: 600; /* Met en gras */
 }
-
 
 /* Main */
 /* Section Profil */
