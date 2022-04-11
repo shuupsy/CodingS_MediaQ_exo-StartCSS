@@ -88,6 +88,17 @@ h1, h3 {
 /* Section CONTACT */
 .contact {
     color: #2C3E50;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 25vw;
+}
+
+button {
+    display: inline;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 5%;
 }
 
 button {
