@@ -14,6 +14,30 @@ header {
     background-color: #2C3E50;
 }
 
+
+/* Main */
+/* Section Profil */
+.profil {
+    background-color: #DC3545;
+    color: white;
+}
+
+/* Section Portfolio */
+.img-container {
+    color: #2C3E50;
+}
+
+/* Section about */
+.about {
+    background-color: #DC3545;
+    color: white;
+}
+
+/* Section CONTACT */
+.contact {
+    color: #2C3E50;
+}
+
 /* Footer */
 .foot {
     background-color: #2C3E50;
