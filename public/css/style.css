@@ -44,17 +44,23 @@ button {
     color: white;
 }
 /* Footer */
-.foot {
-    background-color: #2C3E50;
-}
-
-.copyright {
-    background-color: #1A252F;
-}
-
 footer {
     color: white;
     text-align: center;
+}
+.foot {
+    background-color: #2C3E50;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    padding: 10vh 25vh 15vh 25vh;
+}
+
+.fa-brands {
+    padding: 0.8rem;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 2px;
+    /* Modifier les propriétés fontawesome */
 }
 
 footer p {
@@ -64,10 +70,10 @@ footer p {
 span {
     color: #1ABC9C;
 }
-
-.foot {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.copyright {
+    background-color: #1A252F;
+    height: 10vh;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 10vh 35vh 20vh 35vh;
 }
