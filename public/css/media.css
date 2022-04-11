@@ -3,7 +3,6 @@
         grid-template-columns: 1fr;
         height: auto;
     }
-
     nav {
         display: unset;
     }
@@ -26,5 +25,10 @@
         border: none;
         display: inline;
     }
+}
 
+@media screen and (min-width:768px) and (max-width:1040px) {
+    .foot {
+        padding: 13vh;
+    }
 }
