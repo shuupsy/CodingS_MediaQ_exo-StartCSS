@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Open Sans";
-    src: url('../fonts/OpenSans-Light.ttf');
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.ttf');
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header */
@@ -26,10 +26,10 @@ nav {
 }
 
 nav p {
-    margin-left: 3vw; /*Espacement entre les liens*/
+    margin-left: 2vw; /*Espacement entre les liens*/
     font-weight: 800;/* Met en gras */
+    font-size: 13px;
 }
-
 /* Main */
 /* Section Profil */
 .profil {
