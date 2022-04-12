@@ -3,24 +3,34 @@
         grid-template-columns: 1fr;
         height: auto;
     }
+
     nav {
         display: unset;
     }
+
+    h3 {
+        font-size: 23px;
+    }
+
     .img-container {
         width: 75%;
         grid-template-columns: 1fr;
     }
+
     .txt-about {
         grid-template-columns: 1fr;
     }
+
     .foot {
         padding: 10vh;
         grid-template-columns: 1fr;
     }
+
     .reseaux {
         display: flex;
         flex-direction: column;
     }
+
     .fa-brands {
         border: none;
         display: inline;
